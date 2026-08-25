@@ -1,0 +1,239 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f5f9;
+    color: #334155;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #e2e8f0;
+    padding: 15px 5%;
+    border-bottom: 1px solid #cbd5e1;
+    text-align: center;
+}
+
+.header-brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #cbd5e1;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 22px;
+    color: #0f172a;
+    margin: 0;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-nav {
+    display: block;
+    margin-top: 15px;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #64748b;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    background-color: #cbd5e1;
+    color: #0f172a;
+}
+
+.nav-link.active {
+    background-color: #94a3b8;
+    color: #ffffff;
+}
+
+.banner {
+    background-color: #0f172a;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+.btn-saiba-mais {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #1d4ed8;
+}
+
+.secao-dicas {
+    padding: 60px 5%;
+    text-align: center;
+    background-color: #f8fafc;
+}
+
+.secao-dicas h2 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+.subtitulo-dicas {
+    color: #64748b;
+    margin-bottom: 40px;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.container-dicas {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+.dica {
+    background-color: #e2e8f0;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #cbd5e1;
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+    vertical-align: top;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.dica:hover {
+    background-color: #cbd5e1;
+    border-color: #94a3b8;
+}
+
+.dica-icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.dica h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #0f172a;
+}
+
+.dica p {
+    font-size: 15px;
+    color: #334155;
+    margin: 0;
+}
+
+
+.secao-alerta {
+    background-color: #e0f2fe;
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 1px solid #bae6fd;
+    border-bottom: 1px solid #bae6fd;
+}
+
+.secao-alerta h2 {
+    color: #0369a1;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.secao-alerta p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #0c4a6e;
+}
+
+footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .logo-container {
+        margin-right: 0;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+
+    .dica {
+        display: block;
+        width: 95%;
+        margin: 15px auto;
+    }
+}
