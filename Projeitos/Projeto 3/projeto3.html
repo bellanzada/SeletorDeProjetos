@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedSync</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/emoji/48/circled-m-emoji.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="logo.png" alt="Logo" width="54" height="45" class="d-inline-block align-text-top">
+            <a class="navbar-brand" href="#inicio">MedSync</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+                    <a class="nav-link" href="#destaques">Destaques</a>
+                    <a class="nav-link" href="./medicamentos.html">Remédios Catálogo</a>
+                    <a class="nav-link" href="#sobre">História</a>
+                    <a class="nav-link" href="#faleconosco">Fale conosco</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main id="inicio" class="container mt-5">
+        <h1>Seja bem-vindo à MedSync!</h1>
+        <hr>
+        <h5 class="intro">Sua saúde em perfeita sintonia com a vida.</h5>
+
+        <div class="row">
+            <div class="col-md-12">
+                <section id="destaques" class="banner" aria-labelledby="title">
+                    <h2 id="title">MedSync</h2>
+                    <div class="slogan"></div>
+                    <h6 class="description">
+                        A farmácia de confiança das famílias de Rio Claro/SP. Unimos atendimento humanizado, orientação
+                        farmacêutica de excelência e entrega rápida para cuidar de você com total praticidade.
+                    </h6>
+                    <hr>
+                    <p><span class="description">
+                            Descubra como a MedSync pode transformar sua experiência com medicamentos e cuidados de
+                            saúde.
+                        </span></p>
+                           <br>
+                    <p><span class="description">
+                    <div class="button-group">
+                        <a href="#sobre" class="btn btn-outline-light">Conheça a MedSync</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <section id="catalogo" class="info-section">
+        <div class="container">
+            <h2>Medicamentos e ofertas</h2>
+            <p>Consulte nossa equipe para encontrar os produtos e as melhores condições para o seu tratamento.</p>
+        </div>
+        <div  class="botao-catalogo">
+            <a class="btn btn-primary section-button" href="./medicamentos.html">Ver catálogo</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="info-section sobre-section">
+        <div class="container">
+            <h2>Sobre a MedSync</h2>
+            <p>Atendimento próximo, orientação farmacêutica e cuidado com as famílias de Rio Claro/SP.</p>
+            <div class="sobre-text">
+                <h3>Quando o propósito encontra a vida</h3>
+
+                <p>A MedSync não nasceu em uma sala de reuniões, mas do encontro entre a amizade genuína, a sala de aula
+                    e uma profunda vocação de cuidar. Fundada pelos professores Daniel, Eduardo e Grilo (Lázaro), a
+                    empresa ganhou vida a partir de uma constatação diária: a de que alunos e
+                    famílias enfrentavam barreiras silenciosas para ter acesso a medicamentos e a uma orientação
+                    farmacêutica verdadeiramente humana.
+                    O que já era um sonho ganhou contornos definitivos quando a vida impôs o seu maior desafio. Durante
+                    o tratamento de câncer enfrentado por Grilo, o grupo vivenciou na pele uma verdade transformadora:
+                    o cuidado com a saúde vai muito além da entrega de um remédio.
+                    Ele exige escuta, acolhimento, orientação precisa e uma empatia que acalenta.
+                    Sediada em Rio Claro/SP, a MedSync nasceu para resgatar a essência da farmácia de bairro — aquele
+                    ponto de apoio e confiança —, mas integrada à precisão da tecnologia moderna. Mais do que
+                    vender medicamentos, existimos para sincronizar saúde, inovação e atenção humana, garantindo que
+                    cada cliente se sinta visto, ouvido e cuidado.</p>
+            </div>
+        </div>
+    </section>
+    <section id="faleconosco" class="contato-area">
+        <div class="row">
+            <div class="col-md-6 contato">
+                <h1>Entre em contato</h1>
+                <h4 class="intro">Envie sua mensagem para a equipe MedSync.</h4>
+                <hr>
+
+                <form class="contato-form">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                    <button class="btn btn-primary section-button" type="submit">Enviar mensagem</button>
+                </form>
+            </div>
+
+            <div class="col-md-6 localizacao" id="localizacao">
+                <h2>Onde estamos</h2>
+                <p>Endereço: Rio Claro-SP</p>
+                <p>CEP: 13500-000</p>
+                <p>Telefone: (19) 99999-9999</p>
+                <p>Atendimento: segunda a sábado, das 8h às 18h</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="container">
+            <div class="rodape-conteudo">
+                <div>
+                    <a class="rodape-marca" href="#inicio">
+                        <img src="logo.png" alt="Logo MedSync" width="42" height="36">
+                        <span>MedSync</span>
+                    </a>
+                    <p>Cuidado, orientação e saúde em sintonia com você.</p>
+                </div>
+                <div class="rodape-info">
+                    <strong>Atendimento</strong>
+                    <span>Rio Claro - SP</span>
+                    <span>(19) 99999-9999</span>
+                    <span>Segunda a sábado, das 8h às 18h</span>
+                </div>
+            </div>
+            <div class="rodape-final">
+                <span>&copy; 2026 MedSync. Todos os direitos reservados.</span>
+                <a href="#inicio">Voltar ao início</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
